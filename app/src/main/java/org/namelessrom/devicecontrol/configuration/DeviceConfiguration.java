@@ -103,7 +103,7 @@ public class DeviceConfiguration extends BaseConfiguration<DeviceConfiguration> 
         sobSysctl = PreferenceHelper.getBoolean(BootupService.SOB_SYSCTL, false);
         sobVoltage = PreferenceHelper.getBoolean(BootupService.SOB_VOLTAGE, false);
 
-        darkTheme = PreferenceHelper.getBoolean(DARK_THEME, false);
+        darkTheme = PreferenceHelper.getBoolean(DARK_THEME, true);
         showPollfish = PreferenceHelper.getBoolean(SHOW_POLLFISH, false);
 
         showLauncher = PreferenceHelper.getBoolean(SHOW_LAUNCHER, true);
